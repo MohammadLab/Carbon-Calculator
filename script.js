@@ -4,5 +4,6 @@ function calculate() {
 
     const totalCO2 = (km * 30 * 0.12) + (electricity * 0.45);
 
-    document.getElementById('result').innerText = 'Monthly CO2: ' + totalCO2.toFixed(2) + ' kg';
+    document.getElementById('result').innerText = 
+        'Monthly CO₂: ' + totalCO2.toFixed(2) + ' kg';
 }
